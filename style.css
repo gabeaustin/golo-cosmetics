@@ -1,0 +1,35 @@
+:root {
+  font-family: "Poppins", sans-serif;
+  /* line-height: 1; */
+
+  --primary-blue: #0984e3;
+  --dark-blue: #3b5998;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+}
+.logo {
+  color: var(--primary-blue);
+  font-weight: 900;
+  font-size: 5rem;
+  line-height: 0.85;
+}
+
+.main-copy {
+  font-size: 2rem;
+}
+
+.coming-soon-text {
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+.socials {
+  display: flex;
+}
